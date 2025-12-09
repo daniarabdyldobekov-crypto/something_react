@@ -9,6 +9,7 @@ export default function Navbar() {
       <Link className="hover:text-blue-400 font-semibold" to="/ancient-apparition">Ancient Apparition</Link>
       <Link className="hover:text-blue-400 font-semibold" to="/anti-mage">Anti-Mage</Link>
       <Link className="hover:text-blue-400 font-semibold" to="/arc-warden">Arc Warden</Link>
+      <Link className="hover:text-blue-400 font-semibold" to="/axe">Axe</Link>
     </nav>
   );
 }

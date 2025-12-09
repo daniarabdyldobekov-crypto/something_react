@@ -7,6 +7,7 @@ import Alchemist from "./pages/Alchemist";
 import AncientApparition from "./pages/AncientApparition";
 import AntiMage from "./pages/AntiMage";
 import ArcWarden from "./pages/ArcWarden";
+import Axe from "./pages/Axe";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/ancient-apparition" element={<AncientApparition />} />
           <Route path="/anti-mage" element={<AntiMage />} />
           <Route path="/arc-warden" element={<ArcWarden />} />
+          <Route path="/axe" element={<Axe />} />
         </Routes>
       </div>
     </>
